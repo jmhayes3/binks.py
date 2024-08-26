@@ -5,9 +5,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Binks.py Docs',
+			title: 'binks.py docs',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/jmhayes3/binks.py',
 			},
 			sidebar: [
 				{
