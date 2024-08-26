@@ -1,2 +1,3 @@
-# binks-python
-Discord bot app written in Python. 
+# binks.py
+
+Python port of [binks.js](https://github.com/jmhayes3/binks.js).
