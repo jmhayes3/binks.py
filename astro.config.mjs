@@ -26,8 +26,8 @@ export default defineConfig({
 					label: 'Commands',
 					items: [
 						// Using `slug` for internal links.
-						{ slug: 'version' },
-						{ slug: 'chat' },
+						{ label: 'version', link: '/commands/version' },
+						{ label: 'chat', link: '/commands/chat' },
 					],
 				},
 				// A group linking to all pages in the reference directory.
