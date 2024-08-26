@@ -10,21 +10,27 @@ export default defineConfig({
 				github: 'https://github.com/jmhayes3/binks.py',
 			},
 			sidebar: [
+				// A single link item labelled “Home”.
+				{ label: 'Home', link: '/' },
+				// A group labelled “Start Here” containing four links.
 				{
+					label: 'Getting Started',
+					items: [
+						// Using `slug` for internal links.
+						{ slug: 'intro' },
+						{ slug: 'installation' },
+						// Or using the shorthand for internal links.
+						'tutorial',
+						'next-steps',
+					],
 					label: 'Commands',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Version', slug: 'commands/version' },
-						{ label: 'Chat', slug: 'commands/chat' },
+						// Using `slug` for internal links.
+						{ slug: 'version' },
+						{ slug: 'chat' },
 					],
 				},
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Guides', slug: 'guides/commands' },
-					],
-				},
+				// A group linking to all pages in the reference directory.
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
