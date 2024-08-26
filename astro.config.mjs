@@ -13,16 +13,8 @@ export default defineConfig({
 				// A single link item labelled “Home”.
 				{ label: 'Home', link: '/' },
 				// A group labelled “Start Here” containing four links.
+				{ label: 'Getting Started', link: '/intro' },
 				{
-					label: 'Getting Started',
-					items: [
-						// Using `slug` for internal links.
-						{ slug: 'intro' },
-						{ slug: 'installation' },
-						// Or using the shorthand for internal links.
-						'tutorial',
-						'next-steps',
-					],
 					label: 'Commands',
 					items: [
 						// Using `slug` for internal links.

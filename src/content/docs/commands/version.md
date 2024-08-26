@@ -1,8 +1,16 @@
 ---
 title: Version
-description: Version overview.
+description: The version command.
 ---
 
-## Version
+The `/version` command displays current app verions and optionally checks for updates.
 
-`/version`
+## Options
+
+Command options for `/version`.
+
+- check
+
+## Usage
+
+Usage information for the `/version` command.

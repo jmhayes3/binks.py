@@ -1,8 +1,16 @@
 ---
 title: Chat
-description: Chat overview.
+description: The chat command.
 ---
 
-## Chat
+The `/chat` starts a conversation with an AI assistant.
 
-`/chat`
+## Options
+
+Command options for `/chat`.
+
+- assistant
+
+## Usage
+
+Usage information for the `/chat` command.
