@@ -11,10 +11,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Commands',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Version', slug: 'commands/version' },
+						{ label: 'Chat', slug: 'commands/chat' },
+					],
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Commands Guide', slug: 'guides/commands' },
+						{ label: 'Guides', slug: 'guides/commands' },
 					],
 				},
 				{

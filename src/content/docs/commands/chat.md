@@ -1,8 +1,8 @@
 ---
 title: Chat
-description: Chat command
+description: Chat overview.
 ---
 
 ## Chat
 
-- **/chat**
+`/chat`
