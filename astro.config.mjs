@@ -13,13 +13,20 @@ export default defineConfig({
 				// A single link item labelled “Home”.
 				{ label: 'Home', link: '/' },
 				// A group labelled “Start Here” containing four links.
-				{ label: 'Getting Started', link: '/intro' },
+				{ label: 'Intro', link: '/intro' },
 				{
 					label: 'Commands',
 					items: [
 						// Using `slug` for internal links.
 						{ label: 'version', link: '/commands/version' },
 						{ label: 'chat', link: '/commands/chat' },
+					],
+				},
+				{
+					label: 'Guides',
+					items: [
+						// Using `slug` for internal links.
+						{ label: 'commands', link: '/guides/commands' },
 					],
 				},
 				// A group linking to all pages in the reference directory.
