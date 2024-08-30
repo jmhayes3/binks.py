@@ -7,9 +7,9 @@ The `/chat` starts a conversation with an AI assistant.
 
 ## Options
 
-Command options for `/chat`.
+Command options for `/chat`:
 
-- `assistant`
+-`assistant`
 
 ## Usage
 
