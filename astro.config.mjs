@@ -10,8 +10,6 @@ export default defineConfig({
 				github: 'https://github.com/jmhayes3/binks.py',
 			},
 			sidebar: [
-				// A single link item labelled “Home”.
-				{ label: 'Home', link: '/' },
 				// A group labelled “Start Here” containing four links.
 				{ label: 'Intro', link: '/intro' },
 				{
