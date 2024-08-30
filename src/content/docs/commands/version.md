@@ -7,9 +7,9 @@ The `/version` command displays current app verions and optionally checks for up
 
 ## Options
 
-Command options for `/version`.
+Command options for `/version`:
 
-- check
+`None`
 
 ## Usage
 

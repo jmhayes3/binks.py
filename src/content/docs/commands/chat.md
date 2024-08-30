@@ -9,7 +9,7 @@ The `/chat` starts a conversation with an AI assistant.
 
 Command options for `/chat`.
 
-- assistant
+- `assistant`
 
 ## Usage
 
